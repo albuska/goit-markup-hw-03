@@ -1,0 +1,97 @@
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196f3;
+    --primary-bgc: #ffffff;
+    --secondary-bgc: #2f303a;
+    --button-bgc: #F5F4FA;
+  }
+  
+  body {
+    font-family: "Roboto", sans-serif;
+    background: var(--primary-bgc);
+    letter-spacing: 0.03em;
+  }
+
+
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+      text-decoration: none;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  } 
+
+.main-list {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    color: var(--primary-text-color);
+    background: var(--button-bgc);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-list:hover,
+.main-list:focus {
+    color: var(--primary-bgc);
+    background-color: var(--accent-color);
+}
+
+.main-title {
+font-weight: 700;
+font-size: 18px;
+line-height: 2.0;
+letter-spacing: 0.06em;
+color: var(--primary-text-color);
+}
+
+.main-text {
+font-size: 16px;
+line-height: 1.8;
+color: var(--secondary-text-color);
+}
+
+.labeltag {
+    text-transform: uppercase;
+}
+
+.footer {
+  background-color: var(--secondary-bgc);
+}
+
+.logo-footer {
+  color: var(--primary-bgc);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-bgc);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+}
+
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}

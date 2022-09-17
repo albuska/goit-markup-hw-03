@@ -1,0 +1,82 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bgc: #ffffff;
+  --secondary-bgc: #2f303a;
+  --button-bgc: #F5F4FA;
+  --logo-part-color: #000000;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: var(--primary-bgc);
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--logo-part-color);
+}
+
+.logo-part {
+  color: var(--accent-color);
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--accent-color);
+}
+
+.nav-list.current {
+  color: var(--accent-color);
+}
+
+.contacts {
+  color: var(--secondary-text-color);
+}
+
+.footer {
+  background-color: var(--secondary-bgc);
+}
+
+.logo-footer {
+  color: var(--primary-bgc);
+}
+
+.address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-bgc);
+}
+
+.address:hover,
+.address:focus {
+  color: var(--accent-color);
+}
+
+.address-contacts {
+  color: rgba(255, 255, 255, 0.6);
+}
