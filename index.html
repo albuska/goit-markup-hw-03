@@ -23,8 +23,7 @@
   </head>
   <body>
     <header>
-      <div class="container">
-        <div class="main-header">
+      <div class="container main-header">
             <a href="./index.html" lang="en" class="logo list link"
               ><span class="logo-part">Web</span>Studio</a
             >
@@ -53,7 +52,6 @@
               >
             </li>
           </ul>
-        </div>
       </div>
     </header>
     <main>
@@ -61,7 +59,7 @@
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
         <button type="button" class="button">Замовити послугу</button>
       </section>
-      <section>
+      <section class="section-feature">
         <div class="container">
           <h2 class="visually-hidden">Особливості</h2>
         <ul class="list link main-features">
@@ -95,8 +93,8 @@
         </ul>
         </div>
       </section>
-      <section>
-        <div class="container main-work">
+      <section class=" main-work">
+        <div class="container">
           <h2 class="work">Чим ми займаємося</h2>
         <ul class="list link work-list">
           <li>
@@ -113,7 +111,7 @@
       </section>
       <section class="section-work">
         <div class="container">
-          <h2 class="work team-title">Наша команда</h2>
+          <h2 class="work">Наша команда</h2>
           <ul class="list link main-team">
             <li class="section-list">
               <img
@@ -121,8 +119,10 @@
                 alt="Ігор Дем'яненко" 
                 width="270" class="photo-team"
               />
-              <h3 class="team">Ігор Дем'яненко</h3>
-              <p lang="en" class="team-position">Product Designer</p>
+            <div class="general">
+                <h3 class="team">Ігор Дем'яненко</h3>
+                <p lang="en" class="team-position">Product Designer</p>
+            </div>
             </li>
             <li class="section-list">
               <img
@@ -130,8 +130,10 @@
                 alt="Ольга Рєпіна"
                 width="270" class="photo-team"
               />
-              <h3 class="team">Ольга Рєпіна</h3>
-              <p lang="en" class="team-position">Frontend Developer</p>
+              <div class="general">
+                <h3 class="team">Ольга Рєпіна</h3>
+                <p lang="en" class="team-position">Frontend Developer</p>
+              </div>
             </li>
             <li class="section-list">
               <img
@@ -139,8 +141,10 @@
                 alt="Микола Тарасов"
                 width="270" class="photo-team"
               />
-              <h3 class="team">Микола Тарасов</h3>
-              <p lang="en" class="team-position">Marketing</p>
+              <div class="general">
+                <h3 class="team">Микола Тарасов</h3>
+                <p lang="en" class="team-position">Marketing</p>
+              </div>
             </li>
             <li class="section-list">
               <img
@@ -148,8 +152,10 @@
                 alt="Михайло Єрмаков"
                 width="270"
               />
-              <h3 class="team">Михайло Єрмаков</h3>
-              <p lang="en" class="team-position">UI Designer</p>
+              <div class="general">
+                <h3 class="team">Михайло Єрмаков</h3>
+                <p lang="en" class="team-position">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -157,10 +163,10 @@
     </main>
     <footer class="footer">
       <div class="container">
-        <a href="./index.html" lang="en" class="logo logo-footer-part list link logo-footer"
+        <a href="./index.html" lang="en" class="logo-footer-part list link logo-footer"
         ><span class="logo-part">Web</span>Studio</a
       >
-      <address>
+      <address class="main-address">
         <ul class="list link">
           <li>
             <a
@@ -171,14 +177,14 @@
               >м. Київ, пр-т Лесі Українки, 26</a
             >
           </li>
-          <li>
+          <li class="mail-tel">
             <a
               href="mailto:info@devstudio.com"
               class="list link address address-contacts"
               >info@devstudio.com</a
             >
           </li>
-          <li>
+          <li class="mail-tel">
             <a
               href="tel:+380961111111"
               class="list link address address-contacts tel-footer"

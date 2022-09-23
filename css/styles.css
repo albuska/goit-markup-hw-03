@@ -45,8 +45,7 @@ p {
 .main-header {
   display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+
 }
 
 .logo {
@@ -64,6 +63,7 @@ p {
 
 .site-nav {
   display: flex;
+  padding: 32px 0;
 }
 
 .nav-list {
@@ -98,6 +98,7 @@ p {
 .hero {
   background-color: var(--secondary-bgc);
   text-align: center;
+  padding: 200px 0;
 }
 
 .hero-title {
@@ -107,7 +108,6 @@ p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--primary-bgc);
-  padding-top: 200px;
   max-width: 696px;
   margin: 0 auto;
 }
@@ -126,12 +126,15 @@ p {
   cursor: pointer;
   padding: 10px 32px;
   margin-top: 40px;
-  margin-bottom: 200px;
 }
 
 .button:hover,
 .button:focus {
   background-color: #188ce8;
+}
+
+.section-feature {
+  margin:94px 0;
 }
 
 .visually-hidden {
@@ -150,8 +153,6 @@ p {
 .main-features {
   display: flex;
   justify-content: center;
-  margin-top: 94px;
-  margin-bottom: 94px;
 }
 
 .main-features-list {
@@ -179,6 +180,7 @@ p {
 
 .section-work {
   background: #f5f4fa;
+  padding: 94px 0;
 }
 
 .section-list {
@@ -188,7 +190,7 @@ p {
 }
 
 .main-work {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 .work {
@@ -205,18 +207,18 @@ p {
   justify-content: space-between;
 }
 
-.team-title {
-  padding-top: 94px;
-}
 
 .main-team {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 94px;
 }
 
 .photo-team {
   display: block;
+}
+
+.general {
+  padding: 30px 0;
 }
 
 .team {
@@ -226,27 +228,34 @@ p {
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   text-align: center;
-  margin-top: 30px;
 }
 
 .team-position {
   color: var(--secondary-text-color);
   text-align: center;
   margin-top: 10px;
-  padding-bottom: 30px;
 }
 
 .footer {
   background-color: var(--secondary-bgc);
+  padding: 60px 0;
 }
 
 .logo-footer {
   display: inline-block;
-  padding-top: 60px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+  color: var(--logo-part-color);
 }
 
 .logo-footer-part {
   color: var(--primary-bgc);
+}
+
+.main-address {
+  margin-top: 20px;
 }
 
 .address {
@@ -256,7 +265,10 @@ p {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-bgc);
-  margin-top: 20px;
+}
+
+.mail-tel {
+  margin-top: 9px;
 }
 
 .address:hover,
@@ -266,10 +278,8 @@ p {
 
 .address-contacts {
   color: rgba(255, 255, 255, 0.6);
-  margin-top: 9px;
 }
 
 .tel-footer {
   display: inline-block;
-  padding-bottom: 60px;
 }
